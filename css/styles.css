@@ -3,5 +3,19 @@
 }
 
 input {
-  border: none;
+  width: 100%;
+  margin: auto;
+  border: 0;
+  border-bottom: solid 1px;
+}
+
+
+#contact-list li {
+  cursor: pointer;
+  color: #0033CC;
+}
+
+#contact-list li:hover {
+  color: #ff0000;
+  text-decoration: underline;
 }
